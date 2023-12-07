@@ -1,0 +1,19 @@
+.herolist {
+  display: flex;
+  flex-wrap: wrap;
+  vertical-align: middle;
+  text-align: center;
+}
+  
+.herolist > div {
+  margin: 10px;
+  padding: 20px;
+}
+  
+.herolist > div > p {
+  color: white;
+}
+  
+.herolist > div > a > img {
+  border-radius: 8px;
+}

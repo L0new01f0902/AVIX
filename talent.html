@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arena of Valor Index</title>
+    <link href="assets\web_icon.png" rel="icon">
+
+    <link href="assets\css\general.css" rel="stylesheet"/>
+    <link href="assets/css/talent.css" rel="stylesheet"/>
+  </head>
+
+  <body>
+      <div class="main_nav">
+        <ul class="tabs">
+          <li><a href="index.html">Tướng</class></a></li>
+          <li><a href="armory.html">Trang Bị</class></a></li>
+          <li><a href="enchantment.html">Phù Hiệu</class></a></li>
+          <li><a href="arcana.html">Ngọc</class></a></li>
+          <li><a href="talent.html">Bổ Trợ</class></a></li>
+        </ul>
+      </div>
+
+    <div class="something">
+    <div class="talentlist">
+
+      <div>
+        <a href=""> 
+          <img class="image" src="assets\Images\Talents\Talent01_Heal.png" alt="Heal" onclick="toggleDiv('div-1'); return false;"/> 
+        </a>
+        <p>Cấp Cứu</p>
+      </div>
+
+      <div>
+        <a href=""> 
+          <img class="image" src="assets\Images\Talents\Talent02_Sprint.png" alt="Sprint" onclick="toggleDiv('div-2'); return false;"/> 
+        </a>
+        <p>Tốc Hành</p>
+      </div>
+
+      <div>
+        <a href=""> 
+          <img class="image" src="assets\Images\Talents\Talent03_Punish.png" alt="Punish" onclick="toggleDiv('div-3'); return false;"/> 
+        </a>
+        <p>Trừng Trị</p>
+      </div>
+
+      <div>
+        <a href=""> 
+          <img class="image" src="assets\Images\Talents\Talent04_Execute.png" alt="Execute" onclick="toggleDiv('div-4'); return false;"/> 
+        </a>
+        <p>Bộc Phá</p>
+      </div>
+
+      <div>
+        <a href=""> 
+          <img class="image" src="assets\Images\Talents\Talent05_Flicker.png" alt="Flicker" onclick="toggleDiv('div-5'); return false;"/> 
+        </a>
+        <p>Tốc Biến</p>
+      </div>
+
+      <div>
+        <a href=""> 
+          <img class="image" src="assets\Images\Talents\Talent06_Roar.png" alt="Roar" onclick="toggleDiv('div-6'); return false;"/> 
+        </a>
+        <p>Gầm Thét</p>
+      </div>
+
+      <div>
+        <a href=""> 
+          <img class="image" src="assets\Images\Talents\Talent07_Daze.png" alt="Daze" onclick="toggleDiv('div-7'); return false;"/> 
+        </a>
+        <p>Ngất Ngư</p>
+      </div>
+
+      <div>
+        <a href=""> 
+          <img class="image" src="assets\Images\Talents\Talent08_Purify.png" alt="Purify" onclick="toggleDiv('div-8'); return false;"/> 
+        </a>
+        <p>Thanh Tẩy</p>
+      </div>
+
+      <div>
+        <a href=""> 
+          <img class="image" src="assets\Images\Talents\Talent09_Enfeeble.png" alt="Enfeeble" onclick="toggleDiv('div-9'); return false;"/> 
+        </a>
+        <p>Suy Nhược</p>
+      </div>
+
+    </div> <!-- End Of Talent List -->          
+
+    <div class="contentbox"> <!-- Formatting purposes -->
+      
+      <div id="div-1" class="talentdesc" style="display: none">
+        <img src="assets\Images\Talents\Talent01_Heal.png" alt="Heal">
+        <h1>Heal</h1>
+        <h2>Cooldown: 120s</h2>
+        <p>Nearby allies instantly restore 15% Max HP and increase 15% Movement Speed for 2s</p>
+        <img src="assets\Images\Talents\Demo_Talent01_Heal.png" alt="Heal Demo">
+      </div>
+
+      <div id="div-2" class="talentdesc" style="display: none">
+        <img src="assets\Images\Talents\Talent02_Sprint.png" alt="Sprint">
+        <h1>Sprint</h1>
+        <h2>Cooldown: 100s</h2>
+        <p>Removes all Slow effects and gain a diminishing (70% - 30%) Movement Speed for 10s</p>
+        <img src="assets\Images\Talents\Demo_Talent02_Sprint.png" alt="Sprint Demo">
+      </div>
+
+      <div id="div-3" class="talentdesc" style="display: none">
+        <img src="assets\Images\Talents\Talent03_Punish.png" alt="Punish">
+        <h1>Punish</h1>
+        <h2>Cooldown: 30s</h2>
+        <p>Deals (1350 - 2750) True Damage to a nearby Wildling / Minion and stun them for 1s
+          <br>Frostbite: Simultaneously cast on a nearby enemy, dealing (200 - 410) True Damage with 50% Slow for 2s
+        </p>
+        <img src="assets\Images\Talents\Demo_Talent03_Punish.png" alt="Punish Demo">
+      </div>
+
+      <div id="div-4" class="talentdesc" style="display: none">
+        <img src="assets\Images\Talents\Talent04_Execute.png" alt="Execute">
+        <h1>Execute</h1>
+        <h2>Cooldown: 90s</h2>
+        <p>Instantly attacks nearby enemies, deals True Damage = Target's 16% Lost HP</p>
+        <img src="assets\Images\Talents\Demo_Talent04_Execute.png" alt="Execute Demo">
+      </div>
+
+      <div id="div-5" class="talentdesc" style="display: none">
+        <img src="assets\Images\Talents\Talent05_Flicker.png" alt="Flicker">
+        <h1>Flicker</h1>
+        <h2>Cooldown: 120s</h2>
+        <p>Teleports a certain distance in the target direction</p>
+        <img src="assets\Images\Talents\Demo_Talent05_Flicker.png" alt="Flicker Demo">
+      </div>
+
+      <div id="div-6" class="talentdesc" style="display: none">
+        <img src="assets\Images\Talents\Talent06_Roar.png" alt="Roar">
+        <h1>Roar</h1>
+        <h2>Cooldown: 60s</h2>
+        <p>Increases 25% Resistance and 10% Damage Dealt, while healing 2% Max HP every second over 6s</p>
+        <img src="assets\Images\Talents\Demo_Talent06_Roar.png" alt="Roar Demo">
+      </div>
+
+      <div id="div-7" class="talentdesc" style="display: none">
+        <img src="assets\Images\Talents\Talent07_Daze.png" alt="Daze">
+        <h1>Daze</h1>
+        <h2>Cooldown: 90s</h2>
+        <p>Stuns all nearby enemies for 0.75s, then reduces Targets' 20% Movement Speed, (28 + Lv*2) Armor, and (14 + Lv) Magic Armor for 2.5s</p>
+        <img src="assets\Images\Talents\Demo_Talent07_Daze.png" alt="Daze Demo">
+      </div>
+
+      <div id="div-8" class="talentdesc" style="display: none">
+        <img src="assets\Images\Talents\Talent08_Purify.png" alt="Purify">
+        <h1>Purify</h1>
+        <h2>Cooldown: 120s</h2>
+        <p>Removes all Debuffs and Control Effects. Gains Super Armor for 1.5s</p>
+        <img src="assets\Images\Talents\Demo_Talent08_Purify.png" alt="Purify Demo">
+      </div>
+
+      <div id="div-9" class="talentdesc" style="display: none">
+        <img src="assets\Images\Talents\Talent09_Enfeeble.png" alt="Enfeeble">
+        <h1>Enfeeble</h1>
+        <h2>Cooldown: 90s</h2>
+        <p>Reduces nearby enemies' 20% Damage Dealt and gains 20% Damage Reduction for 4s</p>
+        <img src="assets\Images\Talents\Demo_Talent09_Enfeeble.png" alt="Enfeeble Demo">
+      </div>
+
+    </div>
+    </div>
+  </body>
+
+  <script>
+    var currentDiv = null; // global variable to store the current visible div id
+    function toggleDiv(divId) {
+      var div = document.getElementById(divId);
+      if (currentDiv != null && currentDiv != divId) {
+        // hide the current div if it is not the same as the new one
+        document.getElementById(currentDiv).style.display = "none";
+      }
+      if (div.style.display == "none") {
+        // show the new div and update the current div id
+        div.style.display = "block";
+        currentDiv = divId;
+      } else {
+        // hide the new div and reset the current div id
+        div.style.display = "none";
+        currentDiv = null;
+      }
+    }
+  </script>
+  

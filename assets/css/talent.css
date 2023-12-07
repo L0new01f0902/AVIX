@@ -1,0 +1,33 @@
+.talentlist {
+  display: flex;
+  flex-wrap: wrap;
+  vertical-align: middle;
+  text-align: center;
+  width: 50%;
+}
+  
+.talentlist > div {
+  margin: 10px;
+  padding: 20px;
+}
+  
+.talentlist > div > p {
+  color: white;
+}
+
+.contentbox {
+  display: flex;
+  width: 50%;
+}
+
+
+.talentdesc > img{
+  max-width: 50vw;
+  height:auto;
+  object-fit:contain;
+} 
+
+.something {
+  display: flex;
+}
+

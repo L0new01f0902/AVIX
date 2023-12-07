@@ -1,0 +1,21 @@
+.armorylist {
+    display: flex;
+    flex-wrap: wrap;
+    vertical-align: middle;
+    text-align: center;
+    width: 50%;
+}
+
+.armorylist > div {
+    margin: 10px;
+}
+
+.armorylist > div > p {
+    width: 100px;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+}
+
