@@ -16,7 +16,7 @@ heroinput.addEventListener("change", function(){
           getDownloadURL(storageRef(storage,path))
           .then((url) => {
             console.log(url);
-            let downloadURL = doc(fsdatabase, "downloadURL", img.name);
+            let downloadURL = doc(fsdatabase, "face", img.name);
             setDoc(downloadURL, 
               {URL: url,
                 name: img.name,
@@ -46,7 +46,7 @@ enchantments.addEventListener("change", function(){
         getDownloadURL(storageRef(storage,path))
         .then((url) => {
           console.log(url);
-          let downloadURL = doc(fsdatabase, "downloadURL", img.name);
+          let downloadURL = doc(fsdatabase, "enchantments", img.name);
           setDoc(downloadURL, 
             {URL: url,
               name: img.name,
@@ -76,7 +76,7 @@ armory.addEventListener("change", function(){
         getDownloadURL(storageRef(storage,path))
         .then((url) => {
           console.log(url);
-          let downloadURL = doc(fsdatabase, "downloadURL", img.name);
+          let downloadURL = doc(fsdatabase, "armory", img.name);
           setDoc(downloadURL, 
             {URL: url,
               name: img.name,
@@ -106,7 +106,7 @@ talents.addEventListener("change", function(){
         getDownloadURL(storageRef(storage,path))
         .then((url) => {
           console.log(url);
-          let downloadURL = doc(fsdatabase, "downloadURL", img.name);
+          let downloadURL = doc(fsdatabase, "talents", img.name);
           setDoc(downloadURL, 
             {URL: url,
               name: img.name,
