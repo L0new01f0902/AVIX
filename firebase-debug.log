@@ -1,0 +1,18 @@
+[debug] [2023-12-08T00:04:54.473Z] ----------------------------------------------------------------------
+[debug] [2023-12-08T00:04:54.475Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Lenovo\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2023-12-08T00:04:54.475Z] CLI Version:   13.0.1
+[debug] [2023-12-08T00:04:54.475Z] Platform:      win32
+[debug] [2023-12-08T00:04:54.476Z] Node Version:  v18.16.1
+[debug] [2023-12-08T00:04:54.476Z] Time:          Fri Dec 08 2023 07:04:54 GMT+0700 (Indochina Time)
+[debug] [2023-12-08T00:04:54.476Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-12-08T00:04:54.479Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] Already logged in as xuanphuc090207@gmail.com
+[debug] [2023-12-08T00:04:58.591Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2023-12-08T00:04:58.592Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2023-12-08T00:05:03.252Z] Error: Timed out.
+    at Timeout.<anonymous> (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:258:49)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[error] 
+[error] Error: An unexpected error has occurred.
