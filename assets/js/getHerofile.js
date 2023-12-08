@@ -1,5 +1,5 @@
 import { fsdatabase } from "./config.js";
-import {getDocs, collection} from "https://www.gstatic.com/firebasejs/10.1.0/firebase-firestore.js";
+import {getDocs, collection} from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
 const imgNames = collection(fsdatabase, "downloadURL");
 window.addEventListener("load", function(){
     getDocs(imgNames).then((results) => {

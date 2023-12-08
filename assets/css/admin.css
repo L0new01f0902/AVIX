@@ -45,3 +45,15 @@ button{
 #uploadPercentage{
     font-size: 25px;
 }
+#file-handler{
+    display: flex;
+    flex-direction: row;
+}
+#file-handler > input{
+    display: none;
+}
+#file-handler > label{
+    margin: 30px 30px 30px 30px;
+    font-size: small;
+    text-align: center;
+}
