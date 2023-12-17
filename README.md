@@ -1,3 +1,3 @@
-# AOV
-# A wikipedia of Arena of Valor, made by fans
+# AVIX
+# A guide website about gameplay for Arena of Valor
 # Feel free to help us
