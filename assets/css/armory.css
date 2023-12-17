@@ -1,7 +1,9 @@
 #armorylist{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
+    width:50%;
   }
+
 #armorylist > a{
     height: fit-content;
     width: fit-content;
@@ -10,8 +12,8 @@
     margin-left: 20%;
 }
 img{
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
 }
 #armorylist > a > div{
     align-items: center;
