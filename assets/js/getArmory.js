@@ -13,7 +13,7 @@ window.addEventListener("load", function(){
             let img = document.createElement('img');
             let heroTemplate = document.createElement('div');
             let URL = document.createElement('a');
-            let Name = document.createElement('h2');
+            let Name = document.createElement('h3');
             let armoryNames = fileNames[i].doc.data.value.mapValue.fields.name.stringValue;
             console.log(armoryNames);
             Name.innerHTML = name[i];

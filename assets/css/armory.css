@@ -18,7 +18,7 @@ img{
     border: 2px solid #A4893D;
     background: linear-gradient(90deg, #164492, #761649);
 }
-#armorylist > a > div > h2{
+#armorylist > a > div > h3{
     text-align: center;
     color: #E4C560;
     padding-bottom: 5px;
