@@ -1,19 +1,28 @@
-.herolist {
-  display: flex;
-  flex-wrap: wrap;
-  vertical-align: middle;
+#img-file{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+#img-file > a{
+  height: fit-content;
+  width: fit-content;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-left: 20%;
+}
+img{
+  width: 200px;
+  height: 200px;
+}
+#img-file > a > div{
+  align-items: center;
+  border: 2px solid #A4893D;
+  background: linear-gradient(90deg, #164492, #761649);
+}
+#img-file > a > div > h2{
   text-align: center;
+  color: #E4C560;
+  padding-bottom: 5px;
 }
-  
-.herolist > div {
-  margin: 10px;
-  padding: 20px;
-}
-  
-.herolist > div > p {
-  color: white;
-}
-  
-.herolist > div > a > img {
-  border-radius: 8px;
+#img-file > a{
+  text-decoration: none;
 }

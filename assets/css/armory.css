@@ -1,21 +1,28 @@
-.armorylist {
-    display: flex;
-    flex-wrap: wrap;
-    vertical-align: middle;
+#armorylist{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+#armorylist > a{
+    height: fit-content;
+    width: fit-content;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: 20%;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+#armorylist > a > div{
+    align-items: center;
+    border: 2px solid #A4893D;
+    background: linear-gradient(90deg, #164492, #761649);
+}
+#armorylist > a > div > h2{
     text-align: center;
-    width: 50%;
+    color: #E4C560;
+    padding-bottom: 5px;
 }
-
-.armorylist > div {
-    margin: 10px;
+#armorylist > a{
+    text-decoration: none;
 }
-
-.armorylist > div > p {
-    width: 100px;
-}
-
-.image {
-    width: 100px;
-    height: 100px;
-}
-
