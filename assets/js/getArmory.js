@@ -11,21 +11,21 @@ window.addEventListener("load", function(){
             let armoryFileName = fileNames[i].doc.data.value.mapValue.fields.URL.stringValue;
             console.log(armoryFileName);
             let img = document.createElement('img');
-            let heroTemplate = document.createElement('div');
+            let armoryTemplate = document.createElement('div');
             let URL = document.createElement('a');
-            let Name = document.createElement('h3');
+            let Name = document.createElement('h4');
             let armoryNames = fileNames[i].doc.data.value.mapValue.fields.name.stringValue;
             console.log(armoryNames);
             Name.innerHTML = name[i];
             URL.setAttribute('href', './hero-template.html');
             img.setAttribute('src', armoryFileName);
             img.setAttribute('class', i);
-            heroTemplate.setAttribute('class', i)
+            armoryTemplate.setAttribute('class', i)
             let imgArray = document.getElementById('armorylist');
-            imgArray.appendChild(URL);
-            URL.appendChild(heroTemplate);
-            heroTemplate.appendChild(img);
-            heroTemplate.appendChild(Name);
+            imgArray.appendChild(armoryTemplate);
+            armoryTemplate.appendChild(URL);
+            URL.appendChild(img);
+            armoryTemplate.appendChild(Name);
         }
     }).catch((error) => {
         const errorCode = error.code;
