@@ -1,4 +1,4 @@
-import { storage, fsdatabase } from "./config.js";
+import { storage, fsdatabase } from "./config";
 import {getDownloadURL, ref as storageRef, uploadBytes} from "https://www.gstatic.com/firebasejs/10.7.1/firebase-storage.js";
 import {doc, setDoc} from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
 var heroinput = document.getElementById("heroface");

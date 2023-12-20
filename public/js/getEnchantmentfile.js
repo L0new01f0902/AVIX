@@ -1,4 +1,4 @@
-import { fsdatabase } from "./config.js";
+import { fsdatabase } from "./config";
 import {getDocs, collection} from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
 const imgNames = collection(fsdatabase, "enchantments");
 window.addEventListener("load", function(){
