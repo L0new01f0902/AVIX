@@ -1,6 +1,6 @@
-import { getAuth} from "https://www.gstatic.com/firebasejs/10.1.0/firebase-auth.js";
+import { getAuth} from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
 import { app, database } from "./config"; // Assuming this is the correct path to your config.js file
-import { ref, onValue } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-database.js";
+import { ref, onValue } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-database.js";
 
 const auth = getAuth(app);
 

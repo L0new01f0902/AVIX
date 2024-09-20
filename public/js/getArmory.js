@@ -33,3 +33,4 @@ window.addEventListener("load", function(){
         console.log(`Read data from firestore unsuccessful, code ${errorCode}, message ${errorMessage}`)
     });
 });
+window.addEventListener("load", function(){})
